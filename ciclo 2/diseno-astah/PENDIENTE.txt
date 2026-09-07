@@ -1,0 +1,8 @@
+Aquí va el archivo .astah / .asta del diagrama de clases actualizado
+del Ciclo 2 (pendiente), o su exportación a imagen/PDF si el archivo
+nativo no se puede subir a Git en binario legible.
+
+Debe incluir, respecto al diagrama del Ciclo 1:
+ - Atributo nuevo: locked (boolean) en Wheel.
+ - Métodos nuevos en SlotMachine: swap(wheel1,wheel2), lock(wheel),
+   unlock(wheel), spin(wheel,steps), spin(setSymbols).

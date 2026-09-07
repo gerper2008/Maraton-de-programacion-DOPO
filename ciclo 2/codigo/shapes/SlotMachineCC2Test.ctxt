@@ -1,0 +1,10 @@
+#BlueJ class context
+#Sun Sep 06 23:35:40 COT 2026
+comment0.target=SlotMachineCC2Test
+comment0.text=\r\n Clase de pruebas COMPARTIDA del curso para el Ciclo 2 (construcci\u00F3n\r\n colectiva v\u00EDa wiki). Cada estudiante/pareja agrega aqu\u00ED m\u00EDnimo dos\r\n casos de prueba sobre los requisitos nuevos de SlotMachine.\r\n\r\n IMPORTANTE - convenci\u00F3n de nombres exigida por el enunciado\:\r\n   according<Iniciales>Should<Comportamiento>\r\n donde <Iniciales> son las iniciales de los primeros apellidos de\r\n los autores, con la primera letra del segundo apellido, en orden\r\n alfab\u00E9tico. Ejemplo\: accordingDcAvShould....\r\n\r\n TODO\: reemplazar "XxYy" por las iniciales reales del equipo antes\r\n de subir el caso al wiki, y fusionar aqu\u00ED los casos de los dem\u00E1s\r\n equipos sin borrar los existentes.\r\n\r\n @author (agregar aqu\u00ED cada autor que sume un caso)\r\n @version 1.0\r\n
+comment1.target=void setUp()
+comment2.target=void accordingXxYyShouldSwapConfigurationBetweenTwoWheels()
+comment2.text=\r\n Deber\u00EDa\: intercambiar la configuraci\u00F3n visible entre dos ruedas\r\n v\u00E1lidas. (Ejemplo \#1 - reemplazar XxYy por las iniciales del equipo).\r\n
+comment3.target=void accordingXxYyShouldNotSpinALockedWheelEvenWithMultipleSteps()
+comment3.text=\r\n NO deber\u00EDa\: cambiar el s\u00EDmbolo visible de una rueda bloqueada,\r\n aunque se le pida girar varios pasos. (Ejemplo \#2 - reemplazar XxYy).\r\n
+numComments=4
