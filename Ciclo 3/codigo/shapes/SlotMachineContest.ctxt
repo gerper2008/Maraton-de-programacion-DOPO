@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Sep 20 21:57:45 COT 2026
+comment0.target=SlotMachineContest
+comment0.text=\r\n Resuelve y simula el problema de la marat\u00F3n "Slot Machine" (2025 ICPC\r\n World Finals, Problem I) usando una {@link SlotMachine}.\r\n\r\n Solo se permite usar de SlotMachine los m\u00E9todos SlotMachine(n),\r\n spin(wheel, steps) y distinctSymbols()\: SlotMachine es la herramienta de\r\n prueba de la marat\u00F3n y no puede usarse para "ver" directamente los\r\n s\u00EDmbolos, tal como en el problema original solo se conoce la cantidad de\r\n s\u00EDmbolos distintos visibles despu\u00E9s de cada acci\u00F3n.\r\n\r\n @author\r\n @version 1.0\r\n
+comment1.target=SlotMachineContest()
+comment2.params=n
+comment2.target=int[][] solve(int)
+comment2.text=\r\n Calcula la secuencia de acciones {i, j} (girar la rueda i por j\r\n posiciones) necesarias para ganar el jackpot en una m\u00E1quina de n\r\n ruedas y n s\u00EDmbolos, inicializada aleatoriamente. La m\u00E1quina usada\r\n para resolver permanece invisible durante todo el proceso.\r\n\r\n @param n n\u00FAmero de ruedas y s\u00EDmbolos de la m\u00E1quina.\r\n @return secuencia de acciones {i, j} necesarias para ganar.\r\n
+comment3.params=n
+comment3.target=void simulate(int)
+comment3.text=\r\n Simula visualmente las acciones necesarias para ganar el jackpot en\r\n una m\u00E1quina de n ruedas y n s\u00EDmbolos, inicializada aleatoriamente.\r\n La m\u00E1quina se muestra visible durante toda la simulaci\u00F3n.\r\n\r\n @param n n\u00FAmero de ruedas y s\u00EDmbolos de la m\u00E1quina.\r\n
+comment4.params=sm n
+comment4.target=resolverEn(SlotMachine, int)
+comment4.text=\r\n Aplica sobre la m\u00E1quina dada el algoritmo de tres fases que resuelve\r\n el problema de la marat\u00F3n, usando \u00FAnicamente spin(wheel, steps) y\r\n distinctSymbols() como retroalimentaci\u00F3n, y retorna la lista de\r\n acciones realizadas.\r\n\r\n Fase 1\: deja todas las ruedas mostrando s\u00EDmbolos distintos entre s\u00ED.\r\n Fase 2\: descubre, para cada rueda, cu\u00E1l es su "sucesora" (la rueda\r\n         cuyo s\u00EDmbolo visible est\u00E1 exactamente una posici\u00F3n adelante\r\n         en el orden c\u00EDclico de s\u00EDmbolos), sin alterar el estado\r\n         final de la m\u00E1quina.\r\n Fase 3\: usando la cadena de sucesores, alinea todas las ruedas al\r\n         s\u00EDmbolo de la primera.\r\n\r\n @param sm m\u00E1quina sobre la cual resolver.\r\n @param n n\u00FAmero de ruedas y s\u00EDmbolos.\r\n @return lista de acciones {i, j} realizadas, en orden.\r\n
+numComments=5

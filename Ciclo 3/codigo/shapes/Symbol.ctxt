@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sun Sep 20 21:57:45 COT 2026
+comment0.target=Symbol
+comment0.text=\r\n Representa un s\u00EDmbolo de la m\u00E1quina tragamonedas.\r\n Cada s\u00EDmbolo tiene un nombre, un color y una representaci\u00F3n gr\u00E1fica.\r\n\r\n @author\r\n @version 1.0\r\n
+comment1.params=name color
+comment1.target=Symbol(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un s\u00EDmbolo con un nombre y un color.\r\n\r\n @param name nombre del s\u00EDmbolo.\r\n @param color color del s\u00EDmbolo.\r\n
+comment2.target=java.lang.String getName()
+comment2.text=\r\n Obtiene el nombre del s\u00EDmbolo.\r\n\r\n @return nombre del s\u00EDmbolo.\r\n
+comment3.target=java.lang.String getColor()
+comment3.text=\r\n Obtiene el color del s\u00EDmbolo.\r\n\r\n @return color del s\u00EDmbolo.\r\n
+comment4.target=void makeVisible()
+comment4.text=\r\n Hace visible el s\u00EDmbolo.\r\n
+comment5.target=void makeInvisible()
+comment5.text=\r\n Hace invisible el s\u00EDmbolo.\r\n
+comment6.params=x y
+comment6.target=void changePosition(int, int)
+comment6.text=\r\n Cambia la posici\u00F3n gr\u00E1fica del s\u00EDmbolo.\r\n\r\n @param x posici\u00F3n horizontal.\r\n @param y posici\u00F3n vertical.\r\n
+comment7.params=visible
+comment7.target=void setVisible(boolean)
+comment7.text=\r\n Cambia la visibilidad del s\u00EDmbolo.\r\n\r\n @param visible indica si debe ser visible.\r\n
+numComments=8

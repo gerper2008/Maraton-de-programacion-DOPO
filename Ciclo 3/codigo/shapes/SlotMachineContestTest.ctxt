@@ -1,0 +1,18 @@
+#BlueJ class context
+#Sun Sep 20 21:57:45 COT 2026
+comment0.target=SlotMachineContestTest
+comment0.text=\r\n Pruebas de unidad para SlotMachineContest.\r\n\r\n Nota de dise\u00F1o\: solve(n) y simulate(n) crean su propia SlotMachine\r\n interna y no la exponen, tal como lo pide el enunciado (SlotMachine\r\n es solo la "testing tool" de la marat\u00F3n, no algo que el llamador\r\n manipule directamente). Por eso, para verificar que el algoritmo\r\n realmente LOGRA el jackpot (y no solo que corre sin errores), estas\r\n pruebas usan reflexi\u00F3n para invocar el m\u00E9todo privado resolverEn(...)\r\n sobre una SlotMachine que s\u00ED controlamos, y ah\u00ED revisamos isJackpot().\r\n\r\n @author\r\n @version 1.0\r\n
+comment1.params=sm n
+comment1.target=resolverEn(SlotMachine, int)
+comment1.text=\r\n Invoca por reflexi\u00F3n el m\u00E9todo privado\r\n SlotMachineContest.resolverEn(SlotMachine, int) sobre la m\u00E1quina\r\n dada, y retorna la lista de acciones que aplic\u00F3.\r\n
+comment2.target=void testAlgoritmoLograJackpot()
+comment2.text=\r\n El algoritmo debe lograr el jackpot para varios tama\u00F1os de\r\n m\u00E1quina, repitiendo cada tama\u00F1o varias veces para cubrir distintas\r\n configuraciones aleatorias iniciales.\r\n
+comment3.target=void testCasosBordeSinAcciones()
+comment3.text=\r\n Con 0 o 1 ruedas no hay nada que resolver\: no se necesita ninguna\r\n acci\u00F3n y, si hay 1 rueda, ya es jackpot por definici\u00F3n.\r\n
+comment4.target=void testEstructuraDeLasAccionesEsValida()
+comment4.text=\r\n Cada acci\u00F3n retornada por solve(n) debe tener la forma {i, j}\: la\r\n posici\u00F3n de rueda i debe existir en la m\u00E1quina (entre 1 y n).\r\n
+comment5.target=void testCantidadDeAccionesEsRazonable()
+comment5.text=\r\n El n\u00FAmero de acciones no debe dispararse sin control\: para el\r\n algoritmo de 3 fases, el orden esperado es aproximadamente\r\n proporcional a n al cuadrado.\r\n
+comment6.target=void testSimulateNoLanzaExcepciones()
+comment6.text=\r\n simulate(n) debe ejecutarse sin lanzar excepciones en un entorno\r\n gr\u00E1fico. Esta prueba se omite autom\u00E1ticamente si se corre en un\r\n entorno sin pantalla (headless), ya que simulate() necesita un\r\n Canvas visible.\r\n
+numComments=7
