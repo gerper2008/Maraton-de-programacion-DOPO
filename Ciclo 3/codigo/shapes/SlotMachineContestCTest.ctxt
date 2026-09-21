@@ -1,0 +1,9 @@
+#BlueJ class context
+#Mon Sep 21 00:00:48 COT 2026
+comment0.target=SlotMachineContestCTest
+comment0.text=\n Pruebas de unidad compartidas para SlotMachineContest.\n\n Estas pruebas utilizan \u00FAnicamente la interfaz p\u00FAblica de\n SlotMachineContest y verifican propiedades que debe cumplir\n cualquier soluci\u00F3n v\u00E1lida del problema.\n\n @author\n @version 1.0\n
+comment1.target=void testSolveDevuelveAccionesValidas()
+comment1.text=\n Verifica que solve(n) produzca una secuencia de acciones\n correctamente formada para una m\u00E1quina v\u00E1lida.\n\n Cada acci\u00F3n debe tener la forma {rueda, pasos}, donde la\n rueda est\u00E1 entre 1 y n y la cantidad de pasos est\u00E1 dentro\n del rango permitido por el problema.\n
+comment2.target=void testSolveRespetaLimiteDeAcciones()
+comment2.text=\n Verifica que la soluci\u00F3n respete el m\u00E1ximo de 10.000 acciones\n para diferentes tama\u00F1os v\u00E1lidos de m\u00E1quina.\n
+numComments=3
