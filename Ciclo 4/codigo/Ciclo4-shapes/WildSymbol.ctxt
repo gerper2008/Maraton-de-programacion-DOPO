@@ -1,0 +1,21 @@
+#BlueJ class context
+#Sun Oct 04 16:13:17 COT 2026
+comment0.target=WildSymbol
+comment0.text=\r\n S\u00EDmbolo comod\u00EDn (wild)\: cuenta como cualquier otro s\u00EDmbolo\r\n para efectos del jackpot. Se representa con un c\u00EDrculo\r\n exterior (del color) y uno interior blanco m\u00E1s peque\u00F1o.\r\n\r\n @author DOPO\r\n @version 4.0\r\n
+comment1.params=name color
+comment1.target=WildSymbol(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un s\u00EDmbolo wild.\r\n\r\n @param name nombre del s\u00EDmbolo.\r\n @param color color del s\u00EDmbolo.\r\n
+comment2.target=java.lang.String getType()
+comment2.text=\r\n @return "wild".\r\n
+comment3.target=boolean isWild()
+comment3.text=\r\n @return true, es un s\u00EDmbolo comod\u00EDn.\r\n
+comment4.target=void makeVisible()
+comment4.text=\r\n Hace visibles ambos c\u00EDrculos.\r\n
+comment5.target=void makeInvisible()
+comment5.text=\r\n Hace invisibles ambos c\u00EDrculos.\r\n
+comment6.target=void erase()
+comment6.text=\r\n Borra ambos c\u00EDrculos del canvas.\r\n
+comment7.params=centerX centerY
+comment7.target=void drawAt(int, int)
+comment7.text=\r\n Dibuja ambos c\u00EDrculos centrados en las coordenadas dadas.\r\n C\u00EDrculo exterior del color del s\u00EDmbolo, interior blanco.\r\n\r\n @param centerX coordenada X del centro.\r\n @param centerY coordenada Y del centro.\r\n
+numComments=8

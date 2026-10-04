@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Oct 04 16:13:17 COT 2026
+comment0.target=LeftyWheel
+comment0.text=\r\n Rueda izquierdista (lefty)\: al girar, copia el estado de\r\n la rueda que est\u00E9 a su izquierda. Si no tiene vecina\r\n izquierda, gira normalmente.\r\n\r\n @author DOPO\r\n @version 4.0\r\n
+comment1.target=LeftyWheel()
+comment1.text=\r\n Construye una rueda lefty sin vecina izquierda.\r\n
+comment2.target=java.lang.String getType()
+comment2.text=\r\n @return "lefty".\r\n
+comment3.params=neighbor
+comment3.target=void setLeftNeighbor(Wheel)
+comment3.text=\r\n Asigna la rueda vecina izquierda.\r\n\r\n @param neighbor rueda a la izquierda, o null si no hay.\r\n
+comment4.params=steps
+comment4.target=void spin(int)
+comment4.text=\r\n Gira la rueda. Si tiene vecina izquierda, copia su estado.\r\n Si no, gira normalmente. En ambos casos llama onSpin()\r\n en todos los s\u00EDmbolos y onSelect() en el que queda visible.\r\n\r\n @param steps n\u00FAmero de pasos (ignorado si copia de vecina).\r\n
+numComments=5

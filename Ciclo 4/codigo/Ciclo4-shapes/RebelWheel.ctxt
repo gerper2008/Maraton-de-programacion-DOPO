@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Oct 04 16:13:17 COT 2026
+comment0.target=RebelWheel
+comment0.text=\r\n Rueda rebelde (rebel)\: no se deja bloquear, ni eliminar,\r\n ni intercambiar. Siempre gira normalmente.\r\n\r\n @author DOPO\r\n @version 4.0\r\n
+comment1.target=RebelWheel()
+comment1.text=\r\n Construye una rueda rebelde.\r\n
+comment2.target=java.lang.String getType()
+comment2.text=\r\n @return "rebel".\r\n
+comment3.target=void lock()
+comment3.text=\r\n No hace nada\: la rebel ignora los bloqueos.\r\n
+comment4.target=boolean isLocked()
+comment4.text=\r\n Siempre retorna false\: la rebel nunca est\u00E1 bloqueada.\r\n\r\n @return false.\r\n
+comment5.target=boolean canBeDeleted()
+comment5.text=\r\n No se puede eliminar.\r\n\r\n @return false.\r\n
+comment6.target=boolean canBeSwapped()
+comment6.text=\r\n No se puede intercambiar.\r\n\r\n @return false.\r\n
+numComments=7

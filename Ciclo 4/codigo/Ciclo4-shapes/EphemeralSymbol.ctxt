@@ -1,0 +1,21 @@
+#BlueJ class context
+#Sun Oct 04 16:13:17 COT 2026
+comment0.target=EphemeralSymbol
+comment0.text=\r\n S\u00EDmbolo ef\u00EDmero\: en cada giro su tama\u00F1o decrece en 3\r\n (m\u00EDnimo 3). Se representa con un Tri\u00E1ngulo.\r\n\r\n @author DOPO\r\n @version 4.0\r\n
+comment1.params=name color
+comment1.target=EphemeralSymbol(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un s\u00EDmbolo ef\u00EDmero.\r\n\r\n @param name nombre del s\u00EDmbolo.\r\n @param color color del s\u00EDmbolo.\r\n
+comment2.target=java.lang.String getType()
+comment2.text=\r\n @return "ephemeral".\r\n
+comment3.target=void onSpin()
+comment3.text=\r\n Al girar, el tama\u00F1o decrece en 3 (m\u00EDnimo 3).\r\n
+comment4.target=void makeVisible()
+comment4.text=\r\n Hace visible el tri\u00E1ngulo.\r\n
+comment5.target=void makeInvisible()
+comment5.text=\r\n Hace invisible el tri\u00E1ngulo.\r\n
+comment6.target=void erase()
+comment6.text=\r\n Borra el tri\u00E1ngulo del canvas.\r\n
+comment7.params=centerX centerY
+comment7.target=void drawAt(int, int)
+comment7.text=\r\n Dibuja el tri\u00E1ngulo centrado en las coordenadas dadas.\r\n El tri\u00E1ngulo tiene su v\u00E9rtice superior en (xPosition, yPosition)\r\n y su base en yPosition + height. El centro visual est\u00E1\r\n aproximadamente a 2/3 de la altura desde arriba.\r\n\r\n @param centerX coordenada X del centro.\r\n @param centerY coordenada Y del centro.\r\n
+numComments=8

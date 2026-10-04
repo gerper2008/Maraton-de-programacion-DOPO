@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 04 16:13:17 COT 2026
+comment0.target=MirrorWheel
+comment0.text=\r\n Rueda espejo (mirror)\: gira en sentido contrario al indicado.\r\n Si se pide girar +1, gira -1 y viceversa.\r\n\r\n @author DOPO\r\n @version 4.0\r\n
+comment1.target=MirrorWheel()
+comment1.text=\r\n Construye una rueda espejo.\r\n
+comment2.target=java.lang.String getType()
+comment2.text=\r\n @return "mirror".\r\n
+comment3.params=steps
+comment3.target=void spin(int)
+comment3.text=\r\n Gira en sentido contrario\: invierte los pasos.\r\n\r\n @param steps n\u00FAmero de pasos (se invierte el signo).\r\n
+numComments=4

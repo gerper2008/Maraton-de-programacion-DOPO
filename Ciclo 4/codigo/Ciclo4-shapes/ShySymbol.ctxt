@@ -1,0 +1,23 @@
+#BlueJ class context
+#Sun Oct 04 16:13:17 COT 2026
+comment0.target=ShySymbol
+comment0.text=\r\n S\u00EDmbolo t\u00EDmido\: alterna entre visible e invisible cada vez\r\n que es seleccionado. Se representa con un Rect\u00E1ngulo.\r\n\r\n @author DOPO\r\n @version 4.0\r\n
+comment1.params=name color
+comment1.target=ShySymbol(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un s\u00EDmbolo t\u00EDmido.\r\n\r\n @param name nombre del s\u00EDmbolo.\r\n @param color color del s\u00EDmbolo.\r\n
+comment2.target=java.lang.String getType()
+comment2.text=\r\n @return "shy".\r\n
+comment3.target=void onSelect()
+comment3.text=\r\n Al ser seleccionado, alterna su estado de visibilidad.\r\n
+comment4.target=boolean shouldDisplay()
+comment4.text=\r\n @return true si el s\u00EDmbolo est\u00E1 en estado visible.\r\n
+comment5.target=void makeVisible()
+comment5.text=\r\n Hace visible el rect\u00E1ngulo (si shouldDisplay lo permite).\r\n
+comment6.target=void makeInvisible()
+comment6.text=\r\n Hace invisible el rect\u00E1ngulo.\r\n
+comment7.target=void erase()
+comment7.text=\r\n Borra el rect\u00E1ngulo del canvas.\r\n
+comment8.params=centerX centerY
+comment8.target=void drawAt(int, int)
+comment8.text=\r\n Dibuja el rect\u00E1ngulo centrado en las coordenadas dadas,\r\n solo si shouldDisplay() es true.\r\n\r\n @param centerX coordenada X del centro.\r\n @param centerY coordenada Y del centro.\r\n
+numComments=9
